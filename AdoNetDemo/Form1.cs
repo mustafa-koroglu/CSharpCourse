@@ -81,7 +81,11 @@ namespace AdoNetDemo
             _productDal.Delete(id);
             LoadProducts();
             MessageBox.Show("Deleted!");
-        } 
+        }
 
+        private void dgwProducts_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
